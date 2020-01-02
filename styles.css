@@ -1,0 +1,133 @@
+body {
+    background-color: #00D874 ;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 703px;
+    height: 447px;
+    margin: 90px auto;
+    display: flex;
+    flex-direction: row;
+    box-shadow: -2px 16px 15px 11px #0208155E;
+}
+
+.info {
+    background-color: #2C2C39;
+    width: 45%;
+}
+
+.icon-arrow {
+    float: right;
+}
+
+.icon-chevron, .icon-arrow {
+    margin: 11px 15px;
+}
+
+h1, h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 89px;
+    margin : 33px 0 0;
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.to-do {
+    color: #CECFD1;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.icon-check, .icon-circle {
+    margin-right: 13px;
+}
+
+.icon-circle, .icon-chevron, .icon-arrow, .icon-calendar, .fa-caret-left, .fa-caret-right {
+    color: #CECFD1;
+}
+
+.icon-check {
+    color: #00A558;
+}
+
+
+
+.calendar {
+    background-color: #ffffff;
+    width: 55%;
+}
+
+.icon-calendar {
+    font-size: 26px;
+}
+
+.year {
+    text-align: right;
+    margin: 13px 15px 34px;
+}
+
+.year-number {
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+.march {
+    font-size: 25px;
+    margin: 0 19px;
+}
+
+.month {
+    text-align: center;
+}
+
+.days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 26px 12px 15px;
+}
+
+.week-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 26px 12px 15px;
+}
+
+.week-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 26px 12px 15px;
+}
+
+.week-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 26px 12px 15px;
+}
+
+.week-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 26px 12px 15px;
+}
+
+.week-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 26px 62px 15px 10px;
+}
